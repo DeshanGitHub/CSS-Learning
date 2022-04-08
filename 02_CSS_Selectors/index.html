@@ -5,10 +5,13 @@
     <title>CSS Selectors</title>
     <style>
 
-        /*Class Selector*/
-        .selectedPara {
-            color: darkred;
-            font-size: 40px;
+        /*Attribute Selector*/
+        [id] {
+            color: red;
+        }
+
+        [class] {
+            color: blue;
         }
 
     </style>
@@ -32,7 +35,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem cupiditate deserunt enim facere, hic iure
         repellendus similique sint tempore veritatis vero voluptatem! Aperiam, nostrum, ratione! Id laborum libero
         perferendis.</p>
-    <ul>
+    <ul id="idAttribute">
         <li>A</li>
         <li>B</li>
     </ul>
